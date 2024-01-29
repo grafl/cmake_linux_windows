@@ -9,7 +9,8 @@ build-project:
     - mkdir cmake-build-debug
     - cd cmake-build-debug
     - cmake -S .. -B .
-    - cmake --build .
+#    - cmake --build .
+    - make
     - pwd
     - tree
 
