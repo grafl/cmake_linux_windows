@@ -10,4 +10,5 @@ build-project:
     - cd cmake-build-debug
     - cmake -S .. -B .
     - cmake --build .
-#    - make
+    - ls -la
+
