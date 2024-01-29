@@ -12,5 +12,4 @@ build-project:
 #    - cmake --build .
     - make
     - pwd
-    - tree
-
+    - ./ktb
