@@ -1,0 +1,13 @@
+stages :
+  - build
+  - test
+  - release
+
+build-project:
+  stage : build
+  script:
+    - mkdir cmake-build-debug
+    - cd cmake-build-debug
+    - cmake -S .. -B .
+#    - cmake --build .
+#    - make
