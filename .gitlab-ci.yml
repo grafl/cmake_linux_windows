@@ -5,6 +5,8 @@ stages :
 
 build-project:
   stage : build
+  tags:
+    - ktb_linux
   script:
     - mkdir cmake-build-debug
     - cd cmake-build-debug
