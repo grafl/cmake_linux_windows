@@ -31,7 +31,7 @@ wxEND_EVENT_TABLE()
 wxIMPLEMENT_APP(MyApp);
 
 bool MyApp::OnInit() {
-    MyFrame *frame = new MyFrame( "Kendo Toolbox", wxPoint(50, 50), wxSize(450, 340) );
+    MyFrame *frame = new MyFrame( "KTB - Linux", wxPoint(50, 50), wxSize(450, 340) );
     frame->Show( true );
     return true;
 }
