@@ -1,8 +1,10 @@
-#include <wx/wxprec.h>
+/* #include <wx/wxprec.h>
 
 #ifndef WX_PRECOMP
     #include <wx/wx.h>
-#endif
+#endif */
+
+#include <wx/wx.h>
 
 class MyApp: public wxApp {
 public:
@@ -31,7 +33,7 @@ wxEND_EVENT_TABLE()
 wxIMPLEMENT_APP(MyApp);
 
 bool MyApp::OnInit() {
-    MyFrame *frame = new MyFrame( "KTB - Linux", wxPoint(50, 50), wxSize(450, 340) );
+    MyFrame *frame = new MyFrame( "KTB - Linux + W", wxPoint(50, 50), wxSize(450, 340) );
     frame->Show( true );
     return true;
 }
