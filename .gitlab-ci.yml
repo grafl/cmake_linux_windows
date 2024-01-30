@@ -11,7 +11,7 @@ build-project:
     - mkdir cmake-build-debug
     - cd cmake-build-debug
     - cmake -S .. -B .
-#    - cmake --build .
-    - make
-    - pwd
+    - cmake --build .
+#    - make
+#    - pwd
     - ./ktb
