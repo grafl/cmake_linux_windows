@@ -1,2 +1,2 @@
-# ktb - Kendo Toolbox
+# ktb
 
