@@ -6,6 +6,8 @@
 
 #include <wx/wx.h>
 
+#include "git_version.h"
+
 class MyApp: public wxApp {
 public:
     virtual bool OnInit();
@@ -51,7 +53,8 @@ MyFrame::MyFrame(const wxString& title, const wxPoint& pos, const wxSize& size)
     menuBar->Append( menuHelp, "&Help" );
     SetMenuBar( menuBar );
     CreateStatusBar();
-    SetStatusText( "Welcome to wxWidgets!" );
+    /* SetStatusText( "Welcome to wxWidgets!" ); */
+    SetStatusText(kGitHash);
 }
 
 void MyFrame::OnExit(wxCommandEvent& event) {
